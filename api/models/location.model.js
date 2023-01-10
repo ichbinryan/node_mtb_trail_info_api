@@ -5,7 +5,8 @@ module.exports = mongoose => {
             {
                 name: String,
                 lat: Number,
-                lon: Number
+                lon: Number,
+                utc_id: Number
             }
         )
     )
